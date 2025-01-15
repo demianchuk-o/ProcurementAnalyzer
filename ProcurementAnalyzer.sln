@@ -14,6 +14,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcurementCollector.Applic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcurementCollector.Infrastructure", "src\Services\ProcurementCollector\ProcurementCollector.Infrastructure\ProcurementCollector.Infrastructure.csproj", "{4B0B0B6B-EA3D-4A12-8F04-6B3AFE17DC9D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TextAnalyzer", "TextAnalyzer", "{E38C9323-EB06-4C0A-AA1D-72DF1FFA25DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzer.Api", "src\Services\TextAnalyzer\TextAnalyzer.Api\TextAnalyzer.Api.csproj", "{34B3715D-843F-4ADE-B3CB-C1E9392A0525}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzer.Domain", "src\Services\TextAnalyzer\TextAnalyzer.Domain\TextAnalyzer.Domain.csproj", "{D623E990-3C22-4CCF-9C3C-603144FF1419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzer.Application", "src\Services\TextAnalyzer\TextAnalyzer.Application\TextAnalyzer.Application.csproj", "{BE83FB64-C272-4D90-9A86-642DA236BCF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzer.Infrastructure", "src\Services\TextAnalyzer\TextAnalyzer.Infrastructure\TextAnalyzer.Infrastructure.csproj", "{9DFBB43D-06E1-4DA0-AC94-C4970EDD3F9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +36,11 @@ Global
 		{2C12B85E-0ED3-437B-8511-89ACFA88D866} = {8354D464-756B-49E4-B6A1-57B1CADE86BE}
 		{3491893F-51C0-4494-B187-4AAC50EBDB83} = {8354D464-756B-49E4-B6A1-57B1CADE86BE}
 		{4B0B0B6B-EA3D-4A12-8F04-6B3AFE17DC9D} = {8354D464-756B-49E4-B6A1-57B1CADE86BE}
+		{E38C9323-EB06-4C0A-AA1D-72DF1FFA25DA} = {0017DE23-07BB-4EEF-BADA-AFB722FE9A89}
+		{34B3715D-843F-4ADE-B3CB-C1E9392A0525} = {E38C9323-EB06-4C0A-AA1D-72DF1FFA25DA}
+		{D623E990-3C22-4CCF-9C3C-603144FF1419} = {E38C9323-EB06-4C0A-AA1D-72DF1FFA25DA}
+		{BE83FB64-C272-4D90-9A86-642DA236BCF7} = {E38C9323-EB06-4C0A-AA1D-72DF1FFA25DA}
+		{9DFBB43D-06E1-4DA0-AC94-C4970EDD3F9A} = {E38C9323-EB06-4C0A-AA1D-72DF1FFA25DA}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7A1D767D-9C72-47E2-9864-CEB51360DB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +59,21 @@ Global
 		{4B0B0B6B-EA3D-4A12-8F04-6B3AFE17DC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B0B0B6B-EA3D-4A12-8F04-6B3AFE17DC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B0B0B6B-EA3D-4A12-8F04-6B3AFE17DC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B3715D-843F-4ADE-B3CB-C1E9392A0525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B3715D-843F-4ADE-B3CB-C1E9392A0525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B3715D-843F-4ADE-B3CB-C1E9392A0525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B3715D-843F-4ADE-B3CB-C1E9392A0525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D623E990-3C22-4CCF-9C3C-603144FF1419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D623E990-3C22-4CCF-9C3C-603144FF1419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D623E990-3C22-4CCF-9C3C-603144FF1419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D623E990-3C22-4CCF-9C3C-603144FF1419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE83FB64-C272-4D90-9A86-642DA236BCF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE83FB64-C272-4D90-9A86-642DA236BCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE83FB64-C272-4D90-9A86-642DA236BCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE83FB64-C272-4D90-9A86-642DA236BCF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DFBB43D-06E1-4DA0-AC94-C4970EDD3F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DFBB43D-06E1-4DA0-AC94-C4970EDD3F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DFBB43D-06E1-4DA0-AC94-C4970EDD3F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DFBB43D-06E1-4DA0-AC94-C4970EDD3F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
