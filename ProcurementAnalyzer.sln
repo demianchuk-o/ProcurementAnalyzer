@@ -24,6 +24,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzer.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyzer.Infrastructure", "src\Services\TextAnalyzer\TextAnalyzer.Infrastructure\TextAnalyzer.Infrastructure.csproj", "{9DFBB43D-06E1-4DA0-AC94-C4970EDD3F9A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RiskPredictor", "RiskPredictor", "{17889E61-F0AC-41B1-A193-6BAF7F299C35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskPredictor.Api", "src\Services\RiskPredictor\RiskPredictor.Api\RiskPredictor.Api.csproj", "{47F3B038-C083-4C71-847E-CD89F9096632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskPredictor.Domain", "src\Services\RiskPredictor\RiskPredictor.Domain\RiskPredictor.Domain.csproj", "{74F0E411-AE6A-4C78-9299-692047F91FBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskPredictor.Application", "src\Services\RiskPredictor\RiskPredictor.Application\RiskPredictor.Application.csproj", "{3BEC461F-2E87-4139-A9BE-E2AB83A44A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskPredictor.Infrastructure", "src\Services\RiskPredictor\RiskPredictor.Infrastructure\RiskPredictor.Infrastructure.csproj", "{96AE3201-AAD2-4B97-8DD0-B372DBEFA453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +51,11 @@ Global
 		{D623E990-3C22-4CCF-9C3C-603144FF1419} = {E38C9323-EB06-4C0A-AA1D-72DF1FFA25DA}
 		{BE83FB64-C272-4D90-9A86-642DA236BCF7} = {E38C9323-EB06-4C0A-AA1D-72DF1FFA25DA}
 		{9DFBB43D-06E1-4DA0-AC94-C4970EDD3F9A} = {E38C9323-EB06-4C0A-AA1D-72DF1FFA25DA}
+		{17889E61-F0AC-41B1-A193-6BAF7F299C35} = {0017DE23-07BB-4EEF-BADA-AFB722FE9A89}
+		{47F3B038-C083-4C71-847E-CD89F9096632} = {17889E61-F0AC-41B1-A193-6BAF7F299C35}
+		{74F0E411-AE6A-4C78-9299-692047F91FBB} = {17889E61-F0AC-41B1-A193-6BAF7F299C35}
+		{3BEC461F-2E87-4139-A9BE-E2AB83A44A9B} = {17889E61-F0AC-41B1-A193-6BAF7F299C35}
+		{96AE3201-AAD2-4B97-8DD0-B372DBEFA453} = {17889E61-F0AC-41B1-A193-6BAF7F299C35}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7A1D767D-9C72-47E2-9864-CEB51360DB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -75,5 +90,21 @@ Global
 		{9DFBB43D-06E1-4DA0-AC94-C4970EDD3F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DFBB43D-06E1-4DA0-AC94-C4970EDD3F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DFBB43D-06E1-4DA0-AC94-C4970EDD3F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F3B038-C083-4C71-847E-CD89F9096632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F3B038-C083-4C71-847E-CD89F9096632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F3B038-C083-4C71-847E-CD89F9096632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F3B038-C083-4C71-847E-CD89F9096632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F0E411-AE6A-4C78-9299-692047F91FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F0E411-AE6A-4C78-9299-692047F91FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F0E411-AE6A-4C78-9299-692047F91FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F0E411-AE6A-4C78-9299-692047F91FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEC461F-2E87-4139-A9BE-E2AB83A44A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEC461F-2E87-4139-A9BE-E2AB83A44A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEC461F-2E87-4139-A9BE-E2AB83A44A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEC461F-2E87-4139-A9BE-E2AB83A44A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AE3201-AAD2-4B97-8DD0-B372DBEFA453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AE3201-AAD2-4B97-8DD0-B372DBEFA453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AE3201-AAD2-4B97-8DD0-B372DBEFA453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AE3201-AAD2-4B97-8DD0-B372DBEFA453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
