@@ -1,8 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{37B44928-2BA7-4844-99CB-61DC5CBCADAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0017DE23-07BB-4EEF-BADA-AFB722FE9A89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProcurementCollector", "ProcurementCollector", "{8354D464-756B-49E4-B6A1-57B1CADE86BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcurementCollector.Api", "src\Services\ProcurementCollector\ProcurementCollector.Api\ProcurementCollector.Api.csproj", "{7A1D767D-9C72-47E2-9864-CEB51360DB4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0017DE23-07BB-4EEF-BADA-AFB722FE9A89} = {37B44928-2BA7-4844-99CB-61DC5CBCADAA}
+		{8354D464-756B-49E4-B6A1-57B1CADE86BE} = {0017DE23-07BB-4EEF-BADA-AFB722FE9A89}
+		{7A1D767D-9C72-47E2-9864-CEB51360DB4E} = {8354D464-756B-49E4-B6A1-57B1CADE86BE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A1D767D-9C72-47E2-9864-CEB51360DB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A1D767D-9C72-47E2-9864-CEB51360DB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A1D767D-9C72-47E2-9864-CEB51360DB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A1D767D-9C72-47E2-9864-CEB51360DB4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
